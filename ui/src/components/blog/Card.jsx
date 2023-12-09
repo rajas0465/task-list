@@ -16,7 +16,7 @@ export const Card = ({ posts }) => {
               <div className='details'>
                   <h1 className="BlogTitle">{item.title}</h1>
 
-                <p className="description">{item.generated_blog_en.slice(0, 180)}...</p>
+                <p className="description">{item.generated_blog_en}...</p>
                 <div className='date'>
                   <AiOutlineClockCircle className='icon' /> <label htmlFor=''>{item.date_published}</label>
                   {/* <AiOutlineComment className='icon' /> <label htmlFor=''>27</label> */}
